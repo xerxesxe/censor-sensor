@@ -1,6 +1,6 @@
 
-import * as de from './de.json';
+import * as de from './en.json';
 
 export const AllLocales = {
-  de
+  en
 };
