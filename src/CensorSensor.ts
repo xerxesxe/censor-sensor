@@ -1,6 +1,6 @@
 import { AllLocales } from '../locales';
 
-export type CensorLocale = 'de';
+export type CensorLocale = 'en';
 
 export enum CensorTier {
   Slurs = 1,
@@ -12,7 +12,7 @@ export enum CensorTier {
 
 export class CensorSensor {
 
-  private locale: CensorLocale|string = 'de';
+  private locale: CensorLocale|string = 'en';
 
   private blackList: { [word: string]: boolean } = {};
 
